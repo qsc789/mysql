@@ -1,6 +1,7 @@
 -- 索引提示
 show indexes in employees;
 
+
 -- 1.指定使用的索引
 explain select email from employees use index(emp_email_uk);
 -- 忽略指定索引
